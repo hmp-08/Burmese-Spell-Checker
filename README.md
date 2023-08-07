@@ -23,10 +23,9 @@ The training pipeline used to train the spell checker model is provided as a Jup
 ## Model File
 The pretrained model files are stored in Google Drive. You can download the exported model from the following link:
 
-[Google Drive Link to Pretrained Model](https://drive.google.com/drive/folders/1dsaMqduycRURGl84BPplUfDU7J2lIYN-?usp=sharing)
+[Google Drive Link to Pretrained Model](https://drive.google.com/file/d/1BgIQ3dxqWJYweaa_rvU0b5BeUTCtgnkt/view?usp=sharing)
 
-## Evaluation
-To evaluate the performance of the spell checker model, you can use the evaluate.ipynb notebook. This notebook includes the evaluation of the model using the testing dataset. It calculates the Word Error Rate (WER) to assess the accuracy of the model's corrected spellings compared to the ground truth.
+## Prediction Pipeline
 
 Reference --> https://www.tensorflow.org/text/tutorials/nmt_with_attention
 
