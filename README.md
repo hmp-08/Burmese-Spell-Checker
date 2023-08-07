@@ -20,12 +20,15 @@ To effectively train the spell checker model, I created artificial spelling erro
 ## Training Pipeline
 The training pipeline used to train the spell checker model is provided as a Jupyter Notebook file (Seq_to_Seq_Burmse_Spell_Checker.ipynb). You can run this notebook to reproduce the training process and train the model on your own dataset if desired. The notebook includes step-by-step instructions and explanations of the various components involved in training the model.
 
-## Model File
-The pretrained model files are stored in Google Drive. You can download the exported model from the following link:
-
+## Prediction Pipeline
+The pretrained model file is stored in Google Drive. You can download the exported model from the following link:
 [Google Drive Link to Pretrained Model](https://drive.google.com/file/d/1BgIQ3dxqWJYweaa_rvU0b5BeUTCtgnkt/view?usp=sharing)
 
-## Prediction Pipeline
+#### SpellChecker.py
+The SpellChecker.py file contains the Python script for the Burmese Spell Checker prediction pipeline. This pipeline takes as input a sentence with potential spelling errors and returns the corrected version of the sentence.
+
+#### test_spell_check.ipynb
+The test_spell_check.ipynb notebook provides an example of how to use the prediction pipeline to test the Burmese Spell Checker on multiple sentences. It demonstrates how to load the model, perform spelling correction, and view the results.
 
 Reference --> https://www.tensorflow.org/text/tutorials/nmt_with_attention
 
