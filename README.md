@@ -2,7 +2,7 @@
 Burmese Spell Checker (Seq-to-Seq model with attention)
 
 ## Introduction
-This project aims to build a spell checker model for the Burmese language using a sequence-to-sequence model with attention. The model is trained on a parallel dataset of corrected spelling data along with corresponding incorrect spelling data, comprising over 100,000 sentences with syllable break information.
+This aims to build a spell checker model for the Burmese language using a sequence-to-sequence model with attention. The model is trained on a parallel dataset of corrected spelling data along with corresponding incorrect spelling data, comprising over 100,000 sentences with syllable break information.
 
 ## Artificial Error Making Pipeline
 The training pipeline for the spell checker model is provided as a Jupyter Notebook file (data_preparation.ipynb). 
