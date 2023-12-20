@@ -30,6 +30,8 @@ The SpellChecker.py file contains the Python script for the Burmese Spell Checke
 #### test_spell_check.ipynb
 The test_spell_check.ipynb notebook provides an example of how to use the prediction pipeline to test the Burmese Spell Checker on multiple sentences. It demonstrates how to load the model, perform spelling correction, and view the results.
 
+(https://github.com/hmp-08/Burmese-Spell-Checker/blob/main/Screenshot%20from%202023-12-20%2010-48-54.png)
+
 Reference --> https://www.tensorflow.org/text/tutorials/nmt_with_attention
 
 
